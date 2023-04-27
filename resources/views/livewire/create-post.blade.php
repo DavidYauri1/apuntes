@@ -1,12 +1,12 @@
 <div>
     <x-jet-danger-button wire:click="$set('open',true)">
-        Crear  post
+        Crear
     </x-jet-danger-button>
 
 
     <x-jet-dialog-modal wire:model="open">
         <x-slot name="title">
-            Crear  post
+            Crear
         </x-slot>
         <x-slot name="content">
 
